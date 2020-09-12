@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    margin: 20px;
+    width: 100%;
+}
+
+header .leftheader{
+    float: left;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+header .rightheader{
+    float: right;
+    font-size: small;
+    
+}
+
+header .rightheader span{
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration-line: underline ;
+}
+
+img{
+    width: 400px;
+    height: 500px;
+}
+.crew{
+    margin: 150px auto 0px ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    
+
+}
+
+.ekip{
+    
+    margin-left:70px ;
+    overflow: hidden;
+}
+
+
+.crew .ekip .ekip_hover{
+    width: 400px;
+    height: 500px;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -504px;
+    left: -400px;
+    transition: all 1.5s ease-in ;
+
+}
+
+.crew .ekip:hover .ekip_hover{
+    left: 0;
+}
+
+.crew .ekip .ekip_hover .ekip_hover_text{
+    color: white;
+}
+
+.crew .ekip .ekip_hover .ekip_hover_text h2{
+    position: relative;
+    top: 420px;
+    text-align: center;
+}
+
+.crew .ekip .ekip_hover .ekip_hover_text h3{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: relative;
+    left: 350px;
+}
