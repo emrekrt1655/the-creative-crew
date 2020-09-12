@@ -115,13 +115,17 @@ img{
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 766px){
+@media screen and (min-width: 414px) and (max-width: 766px){
     header{
         width: fit-content;
     }
 
+    header div{
+        font-size: small;
+    }
+
     img{
-        width: 120px;
+        width: 119px;
         height: 240px;
     }
     .crew{
@@ -131,7 +135,7 @@ img{
     
     } 
     .crew .ekip .ekip_hover{
-        width: 120px;
+        width: 119px;
         height: 240px;
         top: -244px;
         left: -120px;
