@@ -83,3 +83,72 @@ img{
     position: relative;
     left: 350px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    img{
+        width: 280px;
+        height: 400px;
+    }
+    .crew{
+        margin: 50px auto 0px ;
+      
+        
+    
+    } 
+    .crew .ekip .ekip_hover{
+        width: 280px;
+        height: 400px;
+        top: -404px;
+        left: -280px;
+    }
+    .crew .ekip .ekip_hover .ekip_hover_text h2{
+        position: relative;
+        top: 320px;
+        text-align: center;
+    }
+    
+    .crew .ekip .ekip_hover .ekip_hover_text h3{
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        position: relative;
+        left: 250px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 766px){
+    header{
+        width: fit-content;
+    }
+
+    img{
+        width: 120px;
+        height: 240px;
+    }
+    .crew{
+        margin: 50px auto 0px ;
+      
+        
+    
+    } 
+    .crew .ekip .ekip_hover{
+        width: 120px;
+        height: 240px;
+        top: -244px;
+        left: -120px;
+    }
+    .crew .ekip .ekip_hover .ekip_hover_text h2{
+        position: relative;
+        top: 200px;
+        text-align: center;
+        font-size: small;
+    }
+    
+    .crew .ekip .ekip_hover .ekip_hover_text h3{
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        position: relative;
+        left: 100px;
+        font-size: small;
+    }
+}
+
